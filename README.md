@@ -35,7 +35,7 @@ community-based initiatives, and private sector solutions to address the housing
 
 # Relational schema Diagram: 
 
-![Caption](Relationalschemahousing crisis.png)
+![Caption](Relationalschemahousingcrisis.png)
 
 
 
