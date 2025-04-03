@@ -29,23 +29,23 @@ interconnections between key entities involved in the housing market.
 • Identification of Potential Solutions: Exploring a range of potential policy interventions, 
 community-based initiatives, and private sector solutions to address the housing crisis. 
 
-# Entity diagram:
+## Entity diagram:
 
 ![Caption](ERmodel.png)
 
-# Relational schema Diagram: 
+## Relational schema Diagram: 
 
 ![Caption](Relationalschemahousingcrisis.png)
 
-# Source Code:
+## Source Code:
 
 ![Create script](create.sql)
 
 ![Populate script](populate.sql)
 
-# Sample Queries
+## Sample Queries
 
-## Query 1
+### Query 1
 
 List all rental units along with their property addresses and city names
 
@@ -56,7 +56,7 @@ JOIN Property p ON r.Property_ID = p.Property_ID
 JOIN City c ON p.City_ID = c.City_ID;
 ```
 
-## Query 2
+### Query 2
 
 Find the total number of rental units per city (Aggregation)
 ```sql
@@ -67,7 +67,7 @@ JOIN Rental_Unit r ON p.Property_ID = r.Property_ID
 GROUP BY c.City_ID;
 ```
 
-## Query 3
+### Query 3
 
 Retrieve tenants (persons) and their rental details, including rent amount and property location
 ```sql
@@ -79,7 +79,7 @@ JOIN Rental_Unit ru ON r.RentalUnit_ID = ru.RentalUnit_ID
 JOIN Property p ON ru.Property_ID = p.Property_ID;
 ```
 
-## Query 4
+### Query 4
 
 Calculate the average rent per city (Derived field and Aggregation)
 ```sql
@@ -92,7 +92,7 @@ JOIN City c ON p.City_ID = c.City_ID
 GROUP BY c.City_ID;
 ```
 
-## Query 5 
+### Query 5 
 
 Identify builders and the number of projects they have worked on along with city details
 ```sql
