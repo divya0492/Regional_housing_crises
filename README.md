@@ -39,11 +39,9 @@ community-based initiatives, and private sector solutions to address the housing
 
 # Source Code:
 
-# Create Script 
-![Caption](create.sql)
+![Create script](create.sql)
 
-# Populate Script
-![Caption](populate.sql)
+![Populate script](populate.sql)
 
 
 
