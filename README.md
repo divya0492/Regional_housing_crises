@@ -49,8 +49,6 @@ community-based initiatives, and private sector solutions to address the housing
 
 List all rental units along with their property addresses and city names
 
-![query.sql](query.sql)
-
 SELECT r.RentalUnit_ID, r.Floor, r.Room, p.Address AS Property_Address, c.City_ID
 
 FROM Rental_Unit r
