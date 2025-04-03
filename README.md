@@ -54,6 +54,7 @@ SELECT r.RentalUnit_ID, r.Floor, r.Room, p.Address AS Property_Address, c.City_I
 FROM Rental_Unit r
 JOIN Property p ON r.Property_ID = p.Property_ID
 JOIN City c ON p.City_ID = c.City_ID;
+```
 
 ## Query 2
 
