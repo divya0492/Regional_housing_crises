@@ -1,5 +1,5 @@
 
-# Regional Housing Crisis
+# REGIONAL HOUSING CRISIS
 
 ## Problem Statement
 A regional housing crisis signifies a severe imbalance between the demand for and supply of suitable, affordable housing. This imbalance manifests in several critical issues: 
@@ -12,10 +12,29 @@ A regional housing crisis signifies a severe imbalance between the demand for an
 
 •	Community Impacts: The crisis can lead to social and economic strain, hindering community growth, attracting and retaining a skilled workforce, and impacting overall quality of life.
 
+## Scope Definition 
+This analysis will focus on understanding the multifaceted nature of the regional housing crisis within 
+a specific geographic area. The scope will encompass: 
+
+• Identification of Key Stakeholders: This includes homeowners, renters, landlords, 
+developers, government agencies (municipal, provincial, federal), non-profit organizations, 
+community groups, and businesses. 
+
+• Data Collection and Analysis: Gathering and analysing quantitative and qualitative data on 
+housing costs, availability, demographics, economic conditions, and other relevant factors. 
+
+• Development of an Entity-Relationship Diagram (ERD): Visualizing the complex 
+interconnections between key entities involved in the housing market. 
+
+• Identification of Potential Solutions: Exploring a range of potential policy interventions, 
+community-based initiatives, and private sector solutions to address the housing crisis. 
+
 # Entity diagram:
+
 ![Caption](ERmodel.png)
 
-# Relational schema Diagram
+# Relational schema Diagram: 
+
 
 
 
