@@ -50,27 +50,19 @@ community-based initiatives, and private sector solutions to address the housing
 List all rental units along with their property addresses and city names
 
 ```sql
-
 SELECT r.RentalUnit_ID, r.Floor, r.Room, p.Address AS Property_Address, c.City_ID
-
 FROM Rental_Unit r
-
 JOIN Property p ON r.Property_ID = p.Property_ID
-
 JOIN City c ON p.City_ID = c.City_ID;
 
 ## Query 2
 
 Find the total number of rental units per city (Aggregation)
-
+```sql
 SELECT c.City_ID, COUNT(r.RentalUnit_ID) AS Total_Rental_Units
-
 FROM City c
-
 JOIN Property p ON c.City_ID = p.City_ID
-
 JOIN Rental_Unit r ON p.Property_ID = r.Property_ID
-
 GROUP BY c.City_ID;
 
 ## Query 3
