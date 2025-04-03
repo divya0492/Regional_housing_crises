@@ -65,50 +65,44 @@ FROM City c
 JOIN Property p ON c.City_ID = p.City_ID
 JOIN Rental_Unit r ON p.Property_ID = r.Property_ID
 GROUP BY c.City_ID;
+```
 
 ## Query 3
 
 Retrieve tenants (persons) and their rental details, including rent amount and property location
+```sql
 
 SELECT per.Person_ID, per.Age_Group, per.Income_Level, r.Rent, p.Address AS Property_Address
-
 FROM Rents r
-
 JOIN Person per ON r.Person_ID = per.Person_ID
-
 JOIN Rental_Unit ru ON r.RentalUnit_ID = ru.RentalUnit_ID
-
 JOIN Property p ON ru.Property_ID = p.Property_ID;
+```
 
 ## Query 4
 
 Calculate the average rent per city (Derived field and Aggregation)
+```sql
 
 SELECT c.City_ID, AVG(r.Rent) AS Avg_Rent
-
 FROM Rents r
-
 JOIN Rental_Unit ru ON r.RentalUnit_ID = ru.RentalUnit_ID
-
 JOIN Property p ON ru.Property_ID = p.Property_ID
-
 JOIN City c ON p.City_ID = c.City_ID
-
 GROUP BY c.City_ID;
+```
 
 ## Query 5 
 
 Identify builders and the number of projects they have worked on along with city details
+```sql
 
 SELECT b.Builder_ID, b.No_of_Projects, p.Address AS Property_Address, c.City_ID, prov.Province_ID
-
 FROM Builder b
-
 JOIN Property p ON b.Property_ID = p.Property_ID
-
 JOIN City c ON p.City_ID = c.City_ID
-
 JOIN Province prov ON c.Province_ID = prov.Province_ID;
+```
 
 
 
