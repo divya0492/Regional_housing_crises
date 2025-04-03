@@ -12,5 +12,10 @@ A regional housing crisis signifies a severe imbalance between the demand for an
 
 •	Community Impacts: The crisis can lead to social and economic strain, hindering community growth, attracting and retaining a skilled workforce, and impacting overall quality of life.
 
-Entity diagram:
+# Entity diagram:
 ![Caption](ERmodel.png)
+
+# Relational schema Diagram
+
+
+
