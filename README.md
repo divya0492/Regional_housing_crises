@@ -29,15 +29,15 @@ interconnections between key entities involved in the housing market.
 • Identification of Potential Solutions: Exploring a range of potential policy interventions, 
 community-based initiatives, and private sector solutions to address the housing crisis. 
 
-## Entity diagram:
+## Entity diagram
 
 ![Caption](ERmodel.png)
 
-## Relational schema Diagram: 
+## Relational schema Diagram 
 
 ![Caption](Relationalschemahousingcrisis.png)
 
-## Source Code:
+## Source Code
 
 ![Create script](create.sql)
 
